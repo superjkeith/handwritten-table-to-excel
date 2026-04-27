@@ -1,2 +1,6 @@
 def check_image_quality(image):
-    return image
+    return {
+    "blurry": False,
+    "dark": False,
+    "retake": False
+}
